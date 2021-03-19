@@ -1,0 +1,6 @@
+C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
