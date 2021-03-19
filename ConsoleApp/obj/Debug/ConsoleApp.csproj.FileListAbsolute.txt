@@ -4,3 +4,9 @@ C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojAs
 C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
 C:\Users\mihap\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
+C:\Users\mihap_l0x2sls\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\mihap_l0x2sls\RiderProjects\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\mihap_l0x2sls\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\mihap_l0x2sls\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\mihap_l0x2sls\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\mihap_l0x2sls\RiderProjects\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb

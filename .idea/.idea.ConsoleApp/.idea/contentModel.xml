@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\mihap\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\mihap\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ConsoleApp.-1596324620.00" t="ExcludeRecursive" />
-    <e p="C:\Users\mihap\RiderProjects\ConsoleApp" t="IncludeFlat">
+    <e p="C:\Users\mihap_l0x2sls\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mihap_l0x2sls\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ConsoleApp.-1030758607.00" t="ExcludeRecursive" />
+    <e p="C:\Users\mihap_l0x2sls\RiderProjects\ConsoleApp" t="IncludeFlat">
       <e p="ConsoleApp" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="ConsoleApp.csproj" t="IncludeRecursive" />

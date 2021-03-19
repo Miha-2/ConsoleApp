@@ -7,34 +7,77 @@ namespace ConsoleApp
     {
         public static void Main(string[] args)
         {
-            List<Card> list = new List<Card>();
             Random random = new Random();
-            for (int i = 1; i < 14; i++)
+            List<Card> list = new List<Card>();
+            List<Card> hand = new List<Card>();
+            
+            void GenerateDeck()
             {
-                for (int j = 0; j < 4; j++)
+                for (int i = 2; i < 15; i++)
                 {
-                    list.Add(new Card{number = i, type = (Type)j});
+                    for (int j = 0; j < 4; j++)
+                    {
+                        list.Add(new Card{number = i, type = (Type)j});
+                    }
+                }
+                for (int i = 2; i < 15; i++)
+                {
+                    for (int j = 0; j < 4; j++)
+                    {
+                        list.Add(new Card{number = i, type = (Type)j});
+                    }
                 }
             }
+            void DrawHand()
+            {
+                int line = 0;
+                for (int i = 0; i < 15; i++)
+                {
+                    int num = random.Next(0, list.Count);
+                    if (Math.Floor(i / 8f) > line)
+                    {
+                        line++;
+                        Console.WriteLine("");
+                    }
+                    Console.Write($"{list[num].Value} of {list[num].type} ({i + 1}) | ");
+                    hand.Add(list[num]);
+                    list.RemoveAt(num);
+                }
+            }
+            
+            void ShowHand()
+            {
+                int line = 0;
+                for (int i = 0; i < hand.Count; i++)
+                {
+                    if (Math.Floor(i / 8f) > line)
+                    {
+                        line++;
+                        Console.WriteLine("");
+                    }
+                    Console.Write($"{hand[i].Value} of {hand[i].type} ({i + 1}) | ");
+                }
+            }
+            Card Draw()
+            {
+                int num = random.Next(0, list.Count);
+                Card card = list[num];
+                list.RemoveAt(num);
+                return card;
+            }
 
-            int iterations = list.Count;
+            GenerateDeck();
+            DrawHand();
+
             while (true)
             {
                 if(Console.ReadLine() == "end")
                     return;
-                int num = random.Next(0, list.Count);
-                Console.Write($"{list[num].Value} of {list[num].type}");
-                list.RemoveAt(num);
+                Console.Clear();
+                hand.RemoveAt(random.Next(0, hand.Count));
+                hand.Add(Draw());
+                ShowHand();
             }
-            for (int i = 0; i < iterations; i++)
-            {
-                int num = random.Next(0, list.Count);
-                Console.Write($"{list[num].number} of {list[num].type} ({i + 1})  ");
-                list.RemoveAt(num);
-            }
-            
-            Console.Write("hi: ");
-            Console.WriteLine("i'm " + Console.ReadLine());
         }
     }
 }
@@ -67,7 +110,6 @@ public struct Card
 
     public Type type;
 }
-
 
 public enum Type
 {
